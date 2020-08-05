@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/form.css">
+	<!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+	<meta charset="UTF-8">
+	<title>Tonar</title>
+</head>
 <header>
 		<div class="header-info">
 			<div class=" tonar-first">

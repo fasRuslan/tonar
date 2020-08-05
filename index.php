@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/form.css">
-	<meta charset="UTF-8">
-	<title>Tonar</title>
-</head>
-
 <body>
 <?php 
 	include "header.php";
