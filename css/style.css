@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial,sans-serif;
+	font-size: 16px;
+	color: white;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+/*header*/
+header{
+}
+.header-info{
+	background-color: #1E498A;
+	padding: 1% 2% 1% 2%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.tonar-first{
+	display: flex;
+}
+.tonar-first>b{
+	margin-left: 5px;
+}
+.header-info h1{
+	font-size: 16px;
+}
+.header-info a{
+	color: white;
+	font-weight: bold;
+	font-size: 27px;
+}
+.header-logo{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.header-logo img{
+	max-height: 150px;
+	max-width: 20%;
+	
+}
+.header-logo img:nth-child(2){
+	max-width: 40%;
+}
+.header-navigation{
+	background-color: #1E498A;
+	padding: 1% 2% 1% 2%;
+}
+.navigation-list{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 30px;
+}
+.navigation-item a{
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: all 1s ease 0s;
+}
+.navigation-item a:hover{
+	color: #F8C400;
+	letter-spacing: 2px;
+}
+.navigation-list button{
+	padding: 10px 15px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+/*catalog*/
+.catalog{
+	padding: 2% 2% 2% 2%;
+}
+.catalog-list{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.last-catalog{
+	display: flex;
+}
+.catalog-item{
+	width: 21%;
+	margin-bottom: 100px;
+}
+/*.catalog-item:hover{
+	background-color: #99CCFF;
+	cursor: pointer;
+	color: white;
+}*/
+.catalog-item .catalog-title{
+	color: #173053;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.catalog-item img{
+	max-width: 100%;
+	
+}
+.catalog-item>img:hover{
+	max-width: 100%;
+	background-color: #99CCFF;
+	cursor: pointer;
+	color: white;
+}
+.last-catalog li:nth-child(2){
+	margin-left: 80px;
+}
+.last-catalog li:last-child{
+	margin-left: 80px;
+}
+
+/*footer*/
+.contacts{
+	padding: 2% 1% 2% 1%;
+	background-image: url(../img/general-page/tonar.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: 50% 50%;
+	background-color: #12398A;
+	display: flex;
+	justify-content: space-around;
+}
+.contacts b{
+	display: block;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.contacts a{
+	color: white;
+	transition:all 1s ease 0s;
+	font-weight: 200;
+	font-size: 14px;
+}
+.contacts a:hover{
+	color: #F8C400;
+	letter-spacing: 1px;
+}
+.contacts h2{
+	margin-bottom: 20px;
+}
+.adress p:nth-child(3){
+	margin-bottom: 20px;
+}
+.pricing{
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+}

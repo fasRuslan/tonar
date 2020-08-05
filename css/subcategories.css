@@ -1,0 +1,36 @@
+/*isothermal*/
+.isothermal{
+	padding: 4% 2% 2% 2%;
+	color: #3F7EFB;
+}
+.isothermal .title{
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.isothermal .isothermal-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.isothermal-list .isothermal-item{
+	margin-bottom: 50px;
+	width: 45%;
+	/*js animated*/
+	transition: 1s;
+}
+.isothermal-item img{
+	max-width: 100%;
+}
+.isothermal-list .trailer-name{
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 40px;
+	line-height: 1.5;
+	color: #12398A;
+}
+.pricing{
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+}

@@ -1,0 +1,71 @@
+
+
+.trailer_picture{
+	background-image: url(../img/izotherm-pricep/general-card-pricep.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 70vh;
+}
+/*picture box*/
+.picture-box{
+	width: 100%;
+}
+.picture-box img{
+	height: 60vh;
+	margin: 0 auto;
+	display: block;
+}
+/*izotermicheskiy_r4*/
+.izotermicheskiy_r4_16{
+	color: #3E5D9F;
+	text-align: center;
+	padding: 3% 2% 2% 2%;
+}
+.quality{
+	margin-bottom: 40px;
+}
+.izotermicheskiy_r4_16 h2{
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+.izotermicheskiy_r4_16-description .subtitle{
+	margin-bottom: 40px;
+	color: black;
+	text-align: center;
+}
+
+/*technical-parameters*/
+.izotermicheskiy_r4_16 .technical-parameters{
+	margin: 0 auto;
+}
+.technical-parameters h3{
+	color: black;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.technical-parameters h4{
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+.technical-parameters ul{
+	max-width: 850px;
+	margin: 0 auto;
+}
+.technical-parameters  li{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+.technical-parameters .point{
+	border-bottom: 1px dotted #3E5D9F;
+	flex-grow: 1;
+	height: 15px;
+}
+.technical-parameters .description-model{
+	display: inline-flex;
+	text-align: right;
+}
