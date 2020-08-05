@@ -8,50 +8,20 @@
 	<title>Tonar</title>
 </head>
 <body>
-	<header>
-		<div class="header-info">
-			<div class=" tonar-first">
-				<h1>Машиностроительный завод Тонар.</h1>
-				<b>Основан в 1990 году</b>
-			</div>
-			<a href="tel:+7 (921) 937-2000">+7 (921) 937-2000</a>
-		</div>
-		<div class="wrapper">
-			<div class="header-logo">
-				<img src="img/general-page/logo1.jpeg" alt="">
-				<img src="img/general-page/zavod.jpeg" alt="">
-				<img src="img/general-page/logo2.jpeg" alt="">
-			</div>
-			<nav class="header-navigation">
-				<ul class="navigation-list">
-					<li class="navigation-item"><a href="#">О компании</a></li>
-					<li class="navigation-item"><a href="#">Полуприцепы</a></li>
-					<li class="navigation-item"><a href="#">Запчасти</a></li>
-					<li class="navigation-item"><a href="#">Лизинг</a></li>
-					<li class="navigation-item"><a href="#">Контакты</a></li>
-					<button class="call-form">Заказать звонок</button>
-				</ul>
-			</nav>
-			<form action="mail.php" method="POST" class="form">
-				<p class="form-title">Введите свой номер телефона</p>
-				<input type="tel" name="tel" required>
-				<input type="submit" value="Отправить" class="btnSend">
-				<input type="submit" value="Отмена" class="btnCancel">
-			</form>
-		</div>
-	</header>
-
+<?php 
+	include "header.php";
+?>
 		<section class="picture-box">
-			<img src="img/tentovanniye/T3-13-K-secondPicture.png" alt="">
+			<img src="img/tentovanniye/T4-16V-VK-firstPicture.png" alt="">
 		</section>
 
 		<section class="izotermicheskiy_r4_16">
 			<div class="wrapper">
 				<div class="izotermicheskiy_r4_16-description">
-					<h2>Тентованный полуприцеп Тонар T3-13/K (алюминиевые борта)</h2>
+					<h2>Тентованный полуприцеп Тонар T4-16V/VK (с разнесёнными осями)</h2>
 					<img src="img/product-card/quality.png" alt="картинка" class="quality">
 					<p class="subtitle">
-						Полуприцеп Тонар T3-13/K предназначен для перевозки грузов массой до 27 000 килограммов, при этом объем кузова равен 92 кубическим метрам. Особое внимания заслуживает тентовая ткань, обладающая плотностью, равной 900 граммов на квадратный метр. Данный полуприцеп шторно-бортовой (крыша и бока полуприцепа сдвигаются отдельно), что очень удобно при погрузке-разгрузке как с боков полуприцепа, так и с верхней части. Для большего комфорта эксплуатации, с наружной стороны имеется специальная ручка предназначенная для сдвигания бокового тента.
+						Полуприцеп Т4-16V/VK предназначен для перевозки грузов массой до 28 000 килограммов, при этом объем кузова равен 110,6 кубическим метрам. Особое внимания заслуживает тентовая ткань, обладающая плотностью, равной 900 граммов на квадратный метр. Данный полуприцеп шторно-бортовой (крыша и бока полуприцепа сдвигаются отдельно), что очень удобно при погрузке-разгрузке как с боков полуприцепа, так и с верхней части. Для большего комфорта эксплуатации, с наружной стороны имеется специальная ручка предназначенная для сдвигания бокового тента.
 					</p>
 					<p class="subtitle">
 						Конструкция кузова отличается повышенной прочностью, поскольку борта данной модели изготавливаются из алюминия. Приобретая такой полуприцеп Вы получаете ряд преимуществ, ведь алюминий обладает повышенной стойкостью к коррозии и различным воздействиям внешней среды. Все наши полуприцепы оснащаются краном управления пневмоподвеской, позволяющим регулировать высоту для более комфортной погрузки и разгрузки. Купить полуприцеп Тонар этой, либо другой модели, а также получить подробную консультацию специалиста при возникновении каких-либо вопросов, можно на нашем сайте.
@@ -67,12 +37,7 @@
 							<li class="equipment-item">
 									<b>Модель</b>
 									<span class="point"></span>
-									<span class="description-model">9888</span>
-							<li class="equipment-item">
-									<b>ССУ</b>
-									<span class="point"></span>
-									<span class="description-model">1 150</span>
-							</li>
+									<span class="description-model">97882</span>
 							<li class="equipment-item">
 									<b>ССУ</b>
 									<span class="point"></span>
@@ -86,22 +51,17 @@
 							<li class="equipment-item">
 									<b>Кузов</b>
 									<span class="point"></span>
-									<span class="description-model">со сдвижной крышей и сдвижными боковинами; <br> с элементами крепления груза.</span>
-							</li>
-							<li class="equipment-item">
-									<b>Кол-во осей</b>
-									<span class="point"></span>
-									<span class="description-model">3</span>
+									<span class="description-model">со сдвижной крышей и сдвижными боковинами; с элементами крепления груза</span>
 							</li>
 							<li class="equipment-item">
 									<b>Объем</b>
 									<span class="point"></span>
-									<span class="description-model">92 куб.м.</span>
+									<span class="description-model">110,6 куб.м.</span>
 							</li>
 							<li class="equipment-item">
-									<b>Подвеска</b>
+									<b>Кол-во осей</b>
 									<span class="point"></span>
-									<span class="description-model">рычажного типа; пневмосистема Wabco</span>
+									<span class="description-model">4</span>
 							</li>
 							<li class="equipment-item">
 									<b>Тип ошиновки</b>
@@ -113,13 +73,18 @@
 									<span class="point"></span>
 									<span class="description-model">рычажного типа; пневмосистема Wabco</span>
 							</li>
+							<li class="equipment-item">
+									<b>Дополнительные опции</b>
+									<span class="point"></span>
+									<span class="description-model">коники / стаканы под коники / крепления под коники на переднем щите</span>
+							</li>
 						</ul>
 						<h4>Размеры:</h4>
 						<ul class="sizes">
 							<li class="sizes-item">
 									<b>Длина (внутренние размеры), мм</b>
 									<span class="point"></span>
-									<span class="description-model">13 660</span>
+									<span class="description-model">16 520</span>
 							</li>
 							<li class="sizes-item">
 									<b>Ширина (внутренние размеры), мм</b>
@@ -129,7 +94,7 @@
 							<li class="sizes-item">
 									<b>Высота (внутренние размеры), мм</b>
 									<span class="point"></span>
-									<span class="description-model">2 700</span>
+									<span class="description-model">2 705</span>
 							</li>
 							<li class="sizes-item">
 									<b>Высота седельно-сцепного устройства, мм</b>
@@ -142,17 +107,17 @@
 							<li class="axes-item">
 									<b>Масса снаряженного полуприцепа, не более, кг</b>
 									<span class="point"></span>
-									<span class="description-model">7 300</span>
+									<span class="description-model">9 300</span>
 							</li>
 							<li class="axes-item">
 									<b>Масса перевозимого груза, кг</b>
 									<span class="point"></span>
-									<span class="description-model">31 000</span>
+									<span class="description-model">28 200</span>
 							</li>
 							<li class="axes-item">
 									<b>Нагрузка на ССУ, кг</b>
 									<span class="point"></span>
-									<span class="description-model">11 085</span>
+									<span class="description-model">10 500</span>
 							</li>
 							<li class="axes-item">
 									<b>Осевая нагрузка, кг</b>
@@ -208,7 +173,7 @@
 							<li class="other_parametrs-item">
 									<b>Объём кузова, куб.м</b>
 									<span class="point"></span>
-									<span class="description-model">92</span>
+									<span class="description-model">110,6</span>
 							</li>
 							<li class="other_parametrs-item">
 									<b>Опорное устройство</b>
@@ -216,7 +181,7 @@
 									<span class="description-model">на 24 т</span>
 							</li>
 						</ul>
-						<p class="pricing">Цена: 2 215 000 руб.</p>
+						<p class="pricing">Цена: 2 650 000 руб.</p>
 					</div>
 				</div>	
 			</div>
@@ -240,17 +205,17 @@
 		<div class="semitrailer">
 			<b>Полуприцепы</b>
 			<ul class="semilitraiter-list">
-				<li class="semilitrailer-item"><a href="s-conteinerovoz-polupricep.html">Контейнеровозы</a></li>
-				<li class="semilitrailer-item"><a href="s-sortimentovoz-polupricep.html">Сортиментовозы</a></li>
-				<li class="semilitrailer-item"><a href="s-samosvalynaya-texnika.html">Самосвальная техника</a></li>
-				<li class="semilitrailer-item"><a href="s-tentovanniy-polupricep.html">Тентованные</a></li>
-				<li class="semilitrailer-item"><a href="s-bortovoy-polupricep.html">Бортовые</a></li>
-				<li class="semilitrailer-item"><a href="s-sdignii-poli.html">Со сдвижными полами</a></li>
-				<li class="semilitrailer-item"><a href="s-scotovozi.html">Скотовозы</a></li>
-				<li class="semilitrailer-item"><a href="s-isotherm-polupricep.html">Изотермические</a></li>
-				<li class="semilitrailer-item"><a href="s-pticevozi.html">Птицевозы</a></li>
-				<li class="semilitrailer-item"><a href="s-zernovye.html">Зерновозы</a></li>
-				<li class="semilitrailer-item"><a href="s-osi.html">Оси для полуприцепов</a></li>
+				<li class="semilitrailer-item"><a href="s-conteinerovoz-polupricep.php">Контейнеровозы</a></li>
+				<li class="semilitrailer-item"><a href="s-sortimentovoz-polupricep.php">Сортиментовозы</a></li>
+				<li class="semilitrailer-item"><a href="s-samosvalynaya-texnika.php">Самосвальная техника</a></li>
+				<li class="semilitrailer-item"><a href="s-tentovanniy-polupricep.php">Тентованные</a></li>
+				<li class="semilitrailer-item"><a href="s-bortovoy-polupricep.php">Бортовые</a></li>
+				<li class="semilitrailer-item"><a href="s-sdignii-poli.php">Со сдвижными полами</a></li>
+				<li class="semilitrailer-item"><a href="s-scotovozi.php">Скотовозы</a></li>
+				<li class="semilitrailer-item"><a href="s-isotherm-polupricep.php">Изотермические</a></li>
+				<li class="semilitrailer-item"><a href="s-pticevozi.php">Птицевозы</a></li>
+				<li class="semilitrailer-item"><a href="s-zernovye.php">Зерновозы</a></li>
+				<li class="semilitrailer-item"><a href="s-osi.php">Оси для полуприцепов</a></li>
 			</ul>
 		</div>
 		<div class="information">

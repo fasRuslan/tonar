@@ -8,55 +8,24 @@
 	<title>Tonar</title>
 </head>
 <body>
-	<header>
-		<div class="header-info">
-			<div class=" tonar-first">
-				<h1>Машиностроительный завод Тонар.</h1>
-				<b>Основан в 1990 году</b>
-			</div>
-			<a href="tel:+7 (921) 937-2000">+7 (921) 937-2000</a>
-		</div>
-		<div class="wrapper">
-			<div class="header-logo">
-				<img src="img/general-page/logo1.jpeg" alt="">
-				<img src="img/general-page/zavod.jpeg" alt="">
-				<img src="img/general-page/logo2.jpeg" alt="">
-			</div>
-			<nav class="header-navigation">
-				<ul class="navigation-list">
-					<li class="navigation-item"><a href="#">О компании</a></li>
-					<li class="navigation-item"><a href="#">Полуприцепы</a></li>
-					<li class="navigation-item"><a href="#">Запчасти</a></li>
-					<li class="navigation-item"><a href="#">Лизинг</a></li>
-					<li class="navigation-item"><a href="#">Контакты</a></li>
-					<button class="call-form">Заказать звонок</button>
-				</ul>
-			</nav>
-			<form action="mail.php" method="POST" class="form">
-				<p class="form-title">Введите свой номер телефона</p>
-				<input type="tel" name="tel" required>
-				<input type="submit" value="Отправить" class="btnSend">
-				<input type="submit" value="Отмена" class="btnCancel">
-			</form>
-		</div>
-	</header>
+<?php 
+	include "header.php";
+?>
 
 		<section class="picture-box">
-			<img src="img/bortovie/B3-13-K-firstPicture.png" alt="">
+			<img src="img/bortovie/B3-16-K-secondPicture.png" alt="">
 		</section>
 
 		<section class="izotermicheskiy_r4_16">
 			<div class="wrapper">
 				<div class="izotermicheskiy_r4_16-description">
-					<h2>Бортовой полуприцеп Тонар B3-13/K (с кониками)</h2>
+					<h2>Бортовой полуприцеп Тонар B3-16/K (с кониками)</h2>
 					<img src="img/product-card/quality.png" alt="картинка" class="quality">
 					<p class="subtitle">
-						Полуприцеп Тонар-9888 это стандартный бортовой полуприцеп длиной 13,6 метров предназначенный для перевозки различных грузов оснащенный 12 стойками от смещения груза, которые легко демонтируются и убираются в специальную корзину для их хранения.
+						Модель полуприцепа Тонар-98881 - это бортовой полуприцеп длиной 16,5 метров, который отличается надежностью, стабильным ходом и долговечностью. Данный бортовой полуприцеп нашел широкое применение при перевозке различного рода непродовольственных грузов, например, строительных материалов, мебели, металлопроката и др. Бортовой полуприцеп позволяет перевести груз массой до 30 тонн.
 					</p>
 					<p class="subtitle">
-						Как и все бортовые полуприцепы Тонар, данная модель внутри кузова имеет специальные скобами для крепления груза стяжными ремнями, которые выдерживают нагрузку до 2-х тонн. Данный полуприцеп оснащается пеневматической или рессорной подвеской в зависимости от условий эксплуатации и характеристик тягача. Купить полуприцеп данной модели вы сможете, совершив заказ на страницах нашего сайта
-
-
+						Модель оснащена всеми необходимыми современными системами, стабилизирующими ход во время движения, даже при самых сложных климатических условиях. Базовая комплектация предусматривает наличие подъемной передней оси. Наличие рабочей, стояночной и аварийной систем торможения, обеспечивают надежность и стабильность в работе полуприцепа. Полуприцеп Тонар оснащен зависимой пневмотической подвеской. Купить полуприцеп данной модели вы сможете, совершив заказ на страницах нашего сайта
 					</p>
 				</div>
 				<div class="technical-parameters">
@@ -67,7 +36,7 @@
 							<li class="equipment-item">
 									<b>Модель</b>
 									<span class="point"></span>
-									<span class="description-model">9888</span>
+									<span class="description-model">98881</span>
 							<li class="equipment-item">
 									<b>ССУ</b>
 									<span class="point"></span>
@@ -77,6 +46,11 @@
 									<b>Тип</b>
 									<span class="point"></span>
 									<span class="description-model">бортовой</span>
+							</li>
+							<li class="equipment-item">
+									<b>Кузов</b>
+									<span class="point"></span>
+									<span class="description-model">Борта металлические</span>
 							</li>
 							<li class="equipment-item">
 									<b>Кол-во осей</b>
@@ -104,7 +78,7 @@
 							<li class="sizes-item">
 									<b>Длина (внутренние размеры), мм</b>
 									<span class="point"></span>
-									<span class="description-model">13 660</span>
+									<span class="description-model">16 520</span>
 							</li>
 							<li class="sizes-item">
 									<b>Ширина (внутренние размеры), мм</b>
@@ -122,17 +96,17 @@
 							<li class="axes-item">
 									<b>Масса снаряженного полуприцепа, не более, кг</b>
 									<span class="point"></span>
-									<span class="description-model">7 300</span>
+									<span class="description-model">8 300</span>
 							</li>
 							<li class="axes-item">
 									<b>Масса перевозимого груза, кг</b>
 									<span class="point"></span>
-									<span class="description-model">31 000</span>
+									<span class="description-model">30 300</span>
 							</li>
 							<li class="axes-item">
 									<b>Нагрузка на ССУ, кг</b>
 									<span class="point"></span>
-									<span class="description-model">11 085</span>
+									<span class="description-model">11 379</span>
 							</li>
 							<li class="axes-item">
 									<b>Осевая нагрузка, кг</b>
@@ -186,17 +160,12 @@
 									<span class="description-model">настил из ламинированной фанеры <br> толщиной 27 мм</span>
 							</li>
 							<li class="other_parametrs-item">
-									<b>Объём кузова, куб.м</b>
-									<span class="point"></span>
-									<span class="description-model">110,6</span>
-							</li>
-							<li class="other_parametrs-item">
 									<b>Опорное устройство</b>
 									<span class="point"></span>
 									<span class="description-model">на 24 т</span>
 							</li>
 						</ul>
-						<p class="pricing">Цена: 1 835 000 руб.</p>
+						<p class="pricing">Цена: 1 900 000 руб.</p>
 					</div>
 				</div>	
 			</div>
@@ -220,17 +189,17 @@
 		<div class="semitrailer">
 			<b>Полуприцепы</b>
 			<ul class="semilitraiter-list">
-				<li class="semilitrailer-item"><a href="s-conteinerovoz-polupricep.html">Контейнеровозы</a></li>
-				<li class="semilitrailer-item"><a href="s-sortimentovoz-polupricep.html">Сортиментовозы</a></li>
-				<li class="semilitrailer-item"><a href="s-samosvalynaya-texnika.html">Самосвальная техника</a></li>
-				<li class="semilitrailer-item"><a href="s-tentovanniy-polupricep.html">Тентованные</a></li>
-				<li class="semilitrailer-item"><a href="s-bortovoy-polupricep.html">Бортовые</a></li>
-				<li class="semilitrailer-item"><a href="s-sdignii-poli.html">Со сдвижными полами</a></li>
-				<li class="semilitrailer-item"><a href="s-scotovozi.html">Скотовозы</a></li>
-				<li class="semilitrailer-item"><a href="s-isotherm-polupricep.html">Изотермические</a></li>
-				<li class="semilitrailer-item"><a href="s-pticevozi.html">Птицевозы</a></li>
-				<li class="semilitrailer-item"><a href="s-zernovye.html">Зерновозы</a></li>
-				<li class="semilitrailer-item"><a href="s-osi.html">Оси для полуприцепов</a></li>
+				<li class="semilitrailer-item"><a href="s-conteinerovoz-polupricep.php">Контейнеровозы</a></li>
+				<li class="semilitrailer-item"><a href="s-sortimentovoz-polupricep.php">Сортиментовозы</a></li>
+				<li class="semilitrailer-item"><a href="s-samosvalynaya-texnika.php">Самосвальная техника</a></li>
+				<li class="semilitrailer-item"><a href="s-tentovanniy-polupricep.php">Тентованные</a></li>
+				<li class="semilitrailer-item"><a href="s-bortovoy-polupricep.php">Бортовые</a></li>
+				<li class="semilitrailer-item"><a href="s-sdignii-poli.php">Со сдвижными полами</a></li>
+				<li class="semilitrailer-item"><a href="s-scotovozi.php">Скотовозы</a></li>
+				<li class="semilitrailer-item"><a href="s-isotherm-polupricep.php">Изотермические</a></li>
+				<li class="semilitrailer-item"><a href="s-pticevozi.php">Птицевозы</a></li>
+				<li class="semilitrailer-item"><a href="s-zernovye.php">Зерновозы</a></li>
+				<li class="semilitrailer-item"><a href="s-osi.php">Оси для полуприцепов</a></li>
 			</ul>
 		</div>
 		<div class="information">

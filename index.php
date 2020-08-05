@@ -17,77 +17,77 @@
 			<ul class="catalog-list">
 
 				<li class="catalog-item">
-					<a href="s-conteinerovoz-polupricep.html">
+					<a href="s-conteinerovoz-polupricep.php">
 						<h3 class="catalog-title">Полуприцепы контейнеровозы</h3>
 						<img src="img/general-page/polupricepconteinerovoz.png" alt="">
 
 				</li>
 
 				<li class="catalog-item">
-					<a href="s-sortimentovoz-polupricep.html">
+					<a href="s-sortimentovoz-polupricep.php">
 						<h3 class="catalog-title">Прицепы сортиментовозы</h3>
 						<img src="img/general-page/pricepi sortimentovosi.png" alt="">
 					</a>
 				</li>
 
 				<li class="catalog-item">
-					<a href="s-samosvalynaya-texnika.html">
+					<a href="s-samosvalynaya-texnika.php">
 						<h3 class="catalog-title">Самосвальная техника</h3>
 						<img src="img/general-page/samosvalnaya tehnika.png" alt="">
 					</a>
 				</li>
 
 				<li class="catalog-item">
-					<a href="s-tentovanniy-polupricep.html">
+					<a href="s-tentovanniy-polupricep.php">
 						<h3 class="catalog-title">Тентованные полуприцепы</h3>
 						<img src="img/general-page/tentovie polupricepi.png" alt="">
 					</a>
 				</li>
 
 				<li class="catalog-item">
-					<a href="s-bortovoy-polupricep.html">
+					<a href="s-bortovoy-polupricep.php">
 						<h3 class="catalog-title">Бортовые полуприцепы</h3>
 						<img src="img/general-page/bortovie polupricepi.png" alt="">
 					</a>
 				</li>
 
 				<li class="catalog-item">
-					<a href="s-sdignii-poli.html">
+					<a href="s-sdignii-poli.php">
 						<h3 class="catalog-title">Полуприцепы со сдвижными полами</h3>
 						<img src="img/general-page/polupricepiSoSdvignimiPolami.png" alt="">
 					</a>
 				</li>
 
 				<li class="catalog-item">
-					<a href="s-scotovozi.html">
+					<a href="s-scotovozi.php">
 						<h3 class="catalog-title">Полуприцепы скотовозы</h3>
 						<img src="img/general-page/polupricepi_skotovozi.png" alt="">
 					</a>
 				</li>
 
 				<li class="catalog-item">
-					<a href="s-isotherm-polupricep.html">
+					<a href="s-isotherm-polupricep.php">
 						<h3 class="catalog-title">Изотермические</h3>
 						<img src="img/general-page/izotermicheskie.png" alt="">
 					</a>
 				</li>
 				<ul class="last-catalog">
 					<li class="catalog-item">
-						<a href="s-pticevozi.html">
+						<a href="s-pticevozi.php">
 							<h3 class="catalog-title">Птицевозы</h3>
 							<img src="img/general-page/pticevozi.png" alt="">
 						</a>
 					</li>
 
 					<li class="catalog-item">
-						<a href="s-zernovye.html">
+						<a href="s-zernovye.php">
 							<h3 class="catalog-title">Полуприцепы зерновозы</h3>
 							<img src="img/general-page/polupricepi_zernovozi.png" alt="">
 						</a>
 					</li>
 
 					<li class="catalog-item">
-						<a href="s-osi.html">
+						<a href="s-osi.php">
 							<h3 class="catalog-title">Оси для полуприцепов ТОНАР</h3>
 							<img src="img/general-page/osi .png" alt="">
 						</a>
@@ -115,17 +115,17 @@
 		<div class="semitrailer">
 			<b>Полуприцепы</b>
 			<ul class="semilitraiter-list">
-				<li class="semilitrailer-item"><a href="s-conteinerovoz-polupricep.html">Контейнеровозы</a></li>
-				<li class="semilitrailer-item"><a href="s-sortimentovoz-polupricep.html">Сортиментовозы</a></li>
-				<li class="semilitrailer-item"><a href="s-samosvalynaya-texnika.html">Самосвальная техника</a></li>
-				<li class="semilitrailer-item"><a href="s-tentovanniy-polupricep.html">Тентованные</a></li>
-				<li class="semilitrailer-item"><a href="s-bortovoy-polupricep.html">Бортовые</a></li>
-				<li class="semilitrailer-item"><a href="s-sdignii-poli.html">Со сдвижными полами</a></li>
-				<li class="semilitrailer-item"><a href="s-scotovozi.html">Скотовозы</a></li>
-				<li class="semilitrailer-item"><a href="s-isotherm-polupricep.html">Изотермические</a></li>
-				<li class="semilitrailer-item"><a href="s-pticevozi.html">Птицевозы</a></li>
-				<li class="semilitrailer-item"><a href="s-zernovye.html">Зерновозы</a></li>
-				<li class="semilitrailer-item"><a href="s-osi.html">Оси для полуприцепов</a></li>
+				<li class="semilitrailer-item"><a href="s-conteinerovoz-polupricep.php">Контейнеровозы</a></li>
+				<li class="semilitrailer-item"><a href="s-sortimentovoz-polupricep.php">Сортиментовозы</a></li>
+				<li class="semilitrailer-item"><a href="s-samosvalynaya-texnika.php">Самосвальная техника</a></li>
+				<li class="semilitrailer-item"><a href="s-tentovanniy-polupricep.php">Тентованные</a></li>
+				<li class="semilitrailer-item"><a href="s-bortovoy-polupricep.php">Бортовые</a></li>
+				<li class="semilitrailer-item"><a href="s-sdignii-poli.php">Со сдвижными полами</a></li>
+				<li class="semilitrailer-item"><a href="s-scotovozi.php">Скотовозы</a></li>
+				<li class="semilitrailer-item"><a href="s-isotherm-polupricep.php">Изотермические</a></li>
+				<li class="semilitrailer-item"><a href="s-pticevozi.php">Птицевозы</a></li>
+				<li class="semilitrailer-item"><a href="s-zernovye.php">Зерновозы</a></li>
+				<li class="semilitrailer-item"><a href="s-osi.php">Оси для полуприцепов</a></li>
 			</ul>
 		</div>
 		<div class="information">

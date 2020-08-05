@@ -8,57 +8,25 @@
 	<title>Tonar</title>
 </head>
 <body>
-	<header>
-		<div class="header-info">
-			<div class=" tonar-first">
-				<h1>Машиностроительный завод Тонар.</h1>
-				<b>Основан в 1990 году</b>
-			</div>
-			<a href="tel:+7 (921) 937-2000">+7 (921) 937-2000</a>
-		</div>
-		<div class="wrapper">
-			<div class="header-logo">
-				<img src="img/general-page/logo1.jpeg" alt="">
-				<img src="img/general-page/zavod.jpeg" alt="">
-				<img src="img/general-page/logo2.jpeg" alt="">
-			</div>
-			<nav class="header-navigation">
-				<ul class="navigation-list">
-					<li class="navigation-item"><a href="#">О компании</a></li>
-					<li class="navigation-item"><a href="#">Полуприцепы</a></li>
-					<li class="navigation-item"><a href="#">Запчасти</a></li>
-					<li class="navigation-item"><a href="#">Лизинг</a></li>
-					<li class="navigation-item"><a href="#">Контакты</a></li>
-					<button class="call-form">Заказать звонок</button>
-				</ul>
-			</nav>
-			<form action="mail.php" method="POST" class="form">
-				<p class="form-title">Введите свой номер телефона</p>
-				<input type="tel" name="tel" required>
-				<input type="submit" value="Отправить" class="btnSend">
-				<input type="submit" value="Отмена" class="btnCancel">
-			</form>
-		</div>
-	</header>
-
+<?php 
+	include "header.php";
+?>
 		<section class="picture-box">
-			<img src="img/scotovozy/9827-firstPicture.png" alt="">
+			<img src="img/scotovozy/9887-secondPicture.png" alt="">
 		</section>
 
 		<section class="izotermicheskiy_r4_16">
 			<div class="wrapper">
 				<div class="izotermicheskiy_r4_16-description">
-					<h2>Полуприцеп для перевозки скота Тонар-9827</h2>
+					<h2>Полуприцеп скотовоз Тонар-9887</h2>
 					<img src="img/product-card/quality.png" alt="картинка" class="quality">
 					<p class="subtitle">
-						Предназначен для перевозки свиней, овец с 3 этажами загрузки. 
-Кузов выполнен полностью из алюминиевых профилей. Загрузка поэтажно. Гидравлическое поднятие этажей с фиксацией.
+						Полуприцеп позволяет перевозить любой скот (КРС, свиньи, овцы и др.) в один ярус, при этом не требует применения специальных погрузочно-разгрузочных приспособлений (пандусов, эстакад и т.п.).
 					</p>
 					<p class="subtitle">
-						Преимущества: <br>	
-- снижение временных затрат на загрузку и выгрузку свиней по сравнению с полуприцепом, оборудованным лифтом <br>
-- не остается свободных площадей при загрузке из-за неподвижных разделительных решеток <br>
-- снижаются затраты на уборку прицепа <br>
+						- Жесткая конструкция кузова. <br>
+- Трехосное шасси. <br>
+- Обшивка из алюминия снижает собственный вес и увеличивает срок службы полуприцепа. <br>
 
 
 
@@ -72,11 +40,11 @@
 							<li class="equipment-item">
 									<b>Модель</b>
 									<span class="point"></span>
-									<span class="description-model">9827-0000010</span>
+									<span class="description-model">9887</span>
 							<li class="equipment-item">
 									<b>ССУ</b>
 									<span class="point"></span>
-									<span class="description-model">1150</span>
+									<span class="description-model">1200</span>
 							</li>
 							<li class="equipment-item">
 									<b>Тип</b>
@@ -86,7 +54,12 @@
 							<li class="equipment-item">
 									<b>Кузов</b>
 									<span class="point"></span>
-									<span class="description-model">3 ярусный</span>
+									<span class="description-model">Металлические вентиляционные задвижки</span>
+							</li>
+							<li class="equipment-item">
+									<b>Кол-во осей</b>
+									<span class="point"></span>
+									<span class="description-model">3</span>
 							</li>
 							<li class="equipment-item">
 									<b>Подвеска</b>
@@ -97,14 +70,19 @@
 						<h4>Размеры:</h4>
 						<ul class="sizes">
 							<li class="sizes-item">
-									<b>Высота седла (седельно-сцепное устройство), мм.</b>
+									<b>Габаритные размеры кузова, не более, мм.</b>
 									<span class="point"></span>
-									<span class="description-model">1 150</span>
+									<span class="description-model">L=13 560, W=2 550, H=1 950</span>
 							</li>
 							<li class="sizes-item">
-									<b>Габариты, не более, мм.</b>
+									<b>Высота седельно-сцепного устройства тягача должна быть, мм.</b>
 									<span class="point"></span>
-									<span class="description-model">L= 14 020, W=2 550, H=4 000</span>
+									<span class="description-model">1200</span>
+							</li>
+							<li class="sizes-item">
+									<b>Нагрузка на седло (ССУ)</b>
+									<span class="point"></span>
+									<span class="description-model">12000 кг</span>
 							</li>
 						</ul>
 						<h4> Вес:</h4>
@@ -112,17 +90,12 @@
 							<li class="axes-item">
 									<b>Масса перевозимого груза, кг.</b>
 									<span class="point"></span>
-									<span class="description-model">23 500 (28 000 технически допустимая)</span>
+									<span class="description-model">22 000</span>
 							</li>
 							<li class="axes-item">
 									<b>Масса снаряженного полуприцепа (прицепа), не более, кг.</b>
 									<span class="point"></span>
-									<span class="description-model">11 820</span>
-							</li>
-							<li class="axes-item">
-									<b>Нагрузка на седло (ССУ) при максимальной загрузке не более, кг.</b>
-									<span class="point"></span>
-									<span class="description-model">14 500</span>
+									<span class="description-model">9 360</span>
 							</li>
 						</ul>
 						<h4> Оси "Тонар":</h4>
@@ -138,9 +111,9 @@
 									<span class="description-model">бескамерные 385/65R 22,5</span>
 							</li>
 							<li class="axes-item">
-									<b>Подъёмная ось</b>
+									<b>Подвеска</b>
 									<span class="point"></span>
-									<span class="description-model">передняя</span>
+									<span class="description-model">зависимая, на продольных упругих <br> рычагах с пневматическими упругими элементами и <br>телескорическими гидравлическими амортизаторами</span>
 							</li>
 						</ul>
 						<h4>Остальные характеристики</h4>
@@ -148,47 +121,47 @@
 							<li class="other_parametrs-item">
 									<b>Опорное устройство</b>
 									<span class="point"></span>
-									<span class="description-model">на 24т.</span>
+									<span class="description-model">2 х 12 т , ручное управления</span>
 
+							<li class="other_parametrs-item">
+									<b>Количество перевозимого скота, голов</b>
+									<span class="point"></span>
+									<span class="description-model">до 35 (КРС), до 90 (cвиньи)</span>
+							</li>
 							<li class="other_parametrs-item">
 									<b>Количество уровней для перевозки свиней, шт.</b>
 									<span class="point"></span>
-									<span class="description-model">3</span>
-							</li>
-							<li class="other_parametrs-item">
-									<b>Количество перевозимых свиней</b>
-									<span class="point"></span>
-									<span class="description-model">до 210</span>
+									<span class="description-model">1</span>
 							</li>
 							<li class="other_parametrs-item">
 									<b>Боковые стенки</b>
 									<span class="point"></span>
-									<span class="description-model">гладкие, выполнены из алюминиевых<br> профилей, окна в боковых стенках расположены <br> на всех 3х ярусах, имеют задвижка, <br>фиксирующиеся в разных положениях</span>
+									<span class="description-model">оцинкованные профили с алюминиевой <br> обшивкой</span>
 							</li>
 							<li class="other_parametrs-item">
 									<b>Передняя стенка</b>
 									<span class="point"></span>
-									<span class="description-model">выполнена из алюминия</span>
-							</li>
-							<li class="other_parametrs-item">
-									<b>Задний дверной проём</b>
-									<span class="point"></span>
-									<span class="description-model">для загрузки и выгрузки животных <br> на заднем дверном блоке установлена опускающаяся <br>дверь-аппарель с подъемными ограждениями</span>
+									<span class="description-model">оцинкованные профили с алюминиевой <br>обшивкой</span>
 							</li>
 							<li class="other_parametrs-item">
 									<b>Полы</b>
 									<span class="point"></span>
-									<span class="description-model">2-ой и 3-ий пол (нагрузка не более 10 000 кг.) <br> идентичны нижнему полу</span>
+									<span class="description-model">металлические, рифленые, с <br>полимерным покрытием</span>
 							</li>
 							<li class="other_parametrs-item">
 									<b>Внутренние заграждения</b>
 									<span class="point"></span>
-									<span class="description-model">съемные, полностью из алюминия), фиксируются защелками</span>
+									<span class="description-model">3 перегородки</span>
 							</li>
 							<li class="other_parametrs-item">
 									<b>Аппарель</b>
 									<span class="point"></span>
-									<span class="description-model">поднимается вертикально и служит дверью</span>
+									<span class="description-model">сзади, открывающаяся дверь-трап с <br>бортиками</span>
+							</li>
+							<li class="other_parametrs-item">
+									<b>Вентиляционные задвижки</b>
+									<span class="point"></span>
+									<span class="description-model">металлические с фиксацией</span>
 							</li>
 							<li class="other_parametrs-item">
 									<b>Вентиляционные задвижки</b>
@@ -201,7 +174,7 @@
 									<span class="description-model">АКБ, электрогидростанция, 24В, подзарядка от тягача</span>
 							</li>
 							<li class="other_parametrs-item">
-									<b>Освещение</b>
+									<b>Внутреннее освещение</b>
 									<span class="point"></span>
 									<span class="description-model"> по 2 прожектора на каждый этаж, <br>подсветка заднего трапа</span>
 							</li>
@@ -216,7 +189,7 @@
 									<span class="description-model">поилки на каждом ярусе, запас воды - 300 л, подача</span>
 							</li>
 						</ul>
-						<p class="pricing">Цена: 6 750 000 руб.</p>
+						<p class="pricing">Цена: 3 600 000 руб.</p>
 					</div>
 				</div>	
 			</div>
@@ -240,17 +213,17 @@
 		<div class="semitrailer">
 			<b>Полуприцепы</b>
 			<ul class="semilitraiter-list">
-				<li class="semilitrailer-item"><a href="s-conteinerovoz-polupricep.html">Контейнеровозы</a></li>
-				<li class="semilitrailer-item"><a href="s-sortimentovoz-polupricep.html">Сортиментовозы</a></li>
-				<li class="semilitrailer-item"><a href="s-samosvalynaya-texnika.html">Самосвальная техника</a></li>
-				<li class="semilitrailer-item"><a href="s-tentovanniy-polupricep.html">Тентованные</a></li>
-				<li class="semilitrailer-item"><a href="s-bortovoy-polupricep.html">Бортовые</a></li>
-				<li class="semilitrailer-item"><a href="s-sdignii-poli.html">Со сдвижными полами</a></li>
-				<li class="semilitrailer-item"><a href="s-scotovozi.html">Скотовозы</a></li>
-				<li class="semilitrailer-item"><a href="s-isotherm-polupricep.html">Изотермические</a></li>
-				<li class="semilitrailer-item"><a href="s-pticevozi.html">Птицевозы</a></li>
-				<li class="semilitrailer-item"><a href="s-zernovye.html">Зерновозы</a></li>
-				<li class="semilitrailer-item"><a href="s-osi.html">Оси для полуприцепов</a></li>
+				<li class="semilitrailer-item"><a href="s-conteinerovoz-polupricep.php">Контейнеровозы</a></li>
+				<li class="semilitrailer-item"><a href="s-sortimentovoz-polupricep.php">Сортиментовозы</a></li>
+				<li class="semilitrailer-item"><a href="s-samosvalynaya-texnika.php">Самосвальная техника</a></li>
+				<li class="semilitrailer-item"><a href="s-tentovanniy-polupricep.php">Тентованные</a></li>
+				<li class="semilitrailer-item"><a href="s-bortovoy-polupricep.php">Бортовые</a></li>
+				<li class="semilitrailer-item"><a href="s-sdignii-poli.php">Со сдвижными полами</a></li>
+				<li class="semilitrailer-item"><a href="s-scotovozi.php">Скотовозы</a></li>
+				<li class="semilitrailer-item"><a href="s-isotherm-polupricep.php">Изотермические</a></li>
+				<li class="semilitrailer-item"><a href="s-pticevozi.php">Птицевозы</a></li>
+				<li class="semilitrailer-item"><a href="s-zernovye.php">Зерновозы</a></li>
+				<li class="semilitrailer-item"><a href="s-osi.php">Оси для полуприцепов</a></li>
 			</ul>
 		</div>
 		<div class="information">
